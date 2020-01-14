@@ -3,7 +3,7 @@
 /*Code setup and graphics by Jayraydee, Contact me on twitter @Jayraydee */
 
 .controller.custom{
-    background: url(base.png); 
+    background: url(noglowbase.png); 
     height: 740px;
     width: 900px;
     background-repeat:no-repeat;
@@ -307,6 +307,20 @@ width: 55px;
     background-repeat:no-repeat; 
 
 }
-
+.custom .meta {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 428px;
+    bottom: 260px;
+}
+.custom .meta.pressed {
+    width: 43px;
+    height: 43px;
+    background: #3ca2bb;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
 
 /*END P4S Controller Styling*/

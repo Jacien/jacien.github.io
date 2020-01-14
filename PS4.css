@@ -308,5 +308,19 @@ width: 55px;
 
 }
 
-
+.custom .meta {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 428px;
+    bottom: 260px;
+}
+.custom .meta.pressed {
+    width: 43px;
+    height: 43px;
+    background: #3ca2bb;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
 /*END P4S Controller Styling*/
