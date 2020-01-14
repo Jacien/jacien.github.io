@@ -4,8 +4,8 @@
 
 .controller.custom{
     background: url(base.png); 
-    height: 624px;
-    width: 840px;
+    height: 740px;
+    width: 900px;
     background-repeat:no-repeat;
 }
 .custom.disconnected { 
@@ -17,8 +17,8 @@
  .custom .triggers{ 
     width: 208px;
     height: 95px;
-    top: 0px;
-    left:10px;
+    top: 22px;
+    left:40px;
 
     position: absolute;
     background-repeat:no-repeat;
@@ -43,26 +43,34 @@
     position: absolute;
 }
 .custom .bumper{
-    width: 208px;
-    height: 333px;
-    left: 114px;
-    top: 98px;
-    background: url(bumper.png);
+    width: 900px;
+    height: 139px;
+    left: 144px;
+    top: 93px;
+    
     opacity: 0;
-    background-repeat:no-repeat;
+    
     position: absolute;
 }
 .custom .bumper.pressed{ 
     opacity: 1;
 }
 .custom .bumper.right{
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    float: left;
-    left: 518px;
-    top: 98px;
+    background: url(R1.png);
+    background-repeat:no-repeat;
+    width: 900px;
+    height: 333px;
+    left: 0px;
+    top: 87px;
+    float: right;
 }
 .custom .bumper.left{
+    background: url(L1.png);
+    background-repeat:no-repeat;
+    width: 900px;
+    height: 333px;
+    left: 0px;
+    top: 87px;
     float: right;
 }
 .custom .quadrant{
@@ -101,13 +109,13 @@
     background-repeat:no-repeat;
 }
 .custom .back.pressed, .custom .start.pressed{
-    top: -102px;
+    top: -22px;
     opacity: 100;
 }
 .custom .back{ 
     position: absolute;
-    top: -101px;
-    left: -55px;
+    top: 12px;
+    left: -25px;
     float: left;
     width: 38px;
     height: 50px;
@@ -116,7 +124,7 @@
 .custom .start{ 
     position: absolute;
     top: -101px;
-    left: 284px;
+    left: 314px;
     float: right;
     width: 38px;
     height: 50px;
@@ -127,8 +135,8 @@
     position: absolute;
     width: 400px;
     height: 260px;
-    top: 156px;
-    left: 571px;
+    top: 237px;
+    left: 601px;
     background-repeat:no-repeat;
 }
 .custom .button{
@@ -168,16 +176,16 @@
 .custom .sticks{
     position: absolute;
     width: 364px;
-    height: 100px;
-    top: 328px;
-    left: 241px;
+    height: 98px;
+    top: 406px;
+    left: 271px;
     background-repeat:no-repeat;
 }
 .custom .stick{
     position: absolute;
     background: url(sticks.png);
-    height:100px;
-    width: 100px;
+    height:98px;
+    width: 99px;
     background-repeat:no-repeat;
 }
 .custom .stick.pressed.left{
@@ -198,8 +206,8 @@
     position: absolute;
     width: 70px;
     height: 130px;
-    top: 189px;
-    left: 90px;
+    top: 270px;
+    left: 120px;
 }
 .custom .face{
     background: url(dpad.png);
@@ -287,50 +295,18 @@ width: 55px;
     position:absolute;
     height: 624px;
     width: 840px;
-    background: url(Xpulsion.gif);
     background-repeat:no-repeat; 
 }
 .custom .touchpad.pressed{
     position:absolute;
     width: 280px;
     height: 160px;
-    top: 127px;
-    left: 282px;
+    top: 208px;
+    left: 312px;
     background: url(touchpad.png);
     background-repeat:no-repeat; 
 
 }
-.fstick{
-    position: absolute;
-    width: 280px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
-        
-}
-.fstick.up{
-  
-}
-.fstick.down{
-  
-}
-.fstick.left{
-  
-}
-.fstick.right{
-  
-}
-.fstick.up.right{
-  
-}
-.fstick.up.left{
-  
-}
-.fstick.down.right{
-  
-}
-.fstick.down.left{
-  
-}
+
 
 /*END P4S Controller Styling*/
